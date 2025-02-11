@@ -1,0 +1,21 @@
+.landing {
+  &__container {
+    height: 75vh;
+  }
+  &__title {
+    font-size: 75px;
+    text-align: center;
+  }
+
+  &__span {
+    color: #cbacf9;
+  }
+
+  &__text {
+    font-weight: 200;
+    font-size: 16px;
+    max-width: 550px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+  }
+}
