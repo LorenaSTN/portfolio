@@ -4,15 +4,21 @@ function Landing() {
   return (
     <>
       <div className="landing__container">
-        <h1 className="landing__title">
-          Desarrolladora <span className="landing__span">Full Stack</span>
-        </h1>
-        <p className="landing__text">¡Hola! Soy Lorena.</p>
-        <p className="landing__text">
-          Disfruto creando aplicaciones web funcionales, intuitivas y
-          visualmente atractivas, combinando diseño y tecnología para ofrecer la
-          mejor experiencia de usuario.
-        </p>
+        <div>
+          <h1 className="landing__title">
+            Desarrolladora <br />{" "}
+            <span className="landing__span">Full Stack</span>
+          </h1>
+
+          <p className="landing__text">
+            ¡Hola! Soy Lorena, diseño código y optimizo experiencias digitales.
+            <br></br>¡Hablemos!
+          </p>
+        </div>
+
+        <div className="landing__box">
+          <p>Ver proyectos</p>
+        </div>
       </div>
     </>
   );

@@ -5,7 +5,7 @@ function Nav() {
     <div className="nav__container">
       <nav className="nav">
         <ul className="nav__ul">
-          <li className="nav__li">Perfil</li>
+          <li className="nav__li">Sobre mí</li>
           <li className="nav__li">Proyectos</li>
           <li className="nav__li">Contacto</li>
         </ul>

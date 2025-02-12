@@ -1,21 +1,81 @@
 .landing {
   &__container {
-    height: 75vh;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
   }
   &__title {
-    font-size: 75px;
+    font-size: 120px;
     text-align: center;
+    margin: 0;
+    margin-top: -40px;
+    line-height: 1.1;
   }
 
   &__span {
     color: #cbacf9;
+    font-size: 130px;
   }
 
   &__text {
-    font-weight: 200;
+    font-weight: 500;
+    font-style: italic;
     font-size: 16px;
-    max-width: 550px;
+    max-width: fit-content;
     margin: 0 auto;
-    margin-bottom: 15px;
+    margin-top: 45px;
+    text-align: center;
+  }
+
+  &__box {
+    position: relative;
+    max-width: 200px;
+    padding: 14px 28px;
+    border-radius: 20px;
+    background: linear-gradient(90deg, #161a31, #06091f);
+    color: white;
+    text-align: center;
+    font-weight: 300;
+    z-index: 1;
+    cursor: pointer;
+    margin-top: -20px;
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: -3px;
+      left: -3px;
+      right: -3px;
+      bottom: -3px;
+      border-radius: 20px;
+      background: linear-gradient(45deg, #cbacf9, #21022f);
+      background-size: 300% 300%;
+      z-index: -1;
+      animation: borderAnimation 4s infinite linear;
+      padding: 3px;
+      mask: linear-gradient(white 0 0) content-box, linear-gradient(white 0 0);
+      mask-composite: exclude;
+      -webkit-mask: linear-gradient(white 0 0) content-box,
+        linear-gradient(white 0 0);
+      -webkit-mask-composite: xor;
+    }
+
+    & p {
+      margin: 0;
+    }
+  }
+}
+
+@keyframes borderAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
   }
 }
