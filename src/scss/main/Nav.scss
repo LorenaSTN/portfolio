@@ -3,9 +3,11 @@
   border-radius: 20px;
   background: linear-gradient(90deg, #161a31, #06091f);
   position: fixed;
+  border: 1px solid rgb(56, 56, 56);
+  z-index: 3;
 
   &__container {
-    height: 15vh;
+    height: 20vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -25,7 +27,7 @@
   &__li {
     transition: all 0.3s ease;
     &:hover {
-      color: #cacaca;
+      color: #b9b9b9;
       font-weight: 350;
     }
   }

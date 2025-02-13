@@ -1,4 +1,19 @@
-.perfil__icon {
-  width: 90px;
-  margin-left: 50px;
+.perfil {
+  &__container {
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  &__bio {
+    max-width: 30%;
+
+    background: linear-gradient(90deg, #161a31, #06091f);
+    padding: 20px 30px;
+    border-radius: 20px;
+
+    & p {
+      font-style: italic;
+    }
+  }
 }

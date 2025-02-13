@@ -1,79 +1,43 @@
 import "../scss/main/Perfil.scss";
+import Typewriter from "typewriter-effect";
 
 function Perfil() {
   return (
-    <div>
-      <div>
-        <h2>Habilidades técnicas</h2>
-        {/* <p>
-          <img
-            className="perfil__icon"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg"
-          />
+    <>
+      <div className="perfil__container">
+        <div className="perfil__bio">
+          <h3>
+            <Typewriter
+              options={{
+                strings: [
+                  "Front-End Developer",
+                  "Back-End Developer",
+                  "Full Stack Developer",
+                ],
+                autoStart: true,
+                loop: true,
+                delay: 75,
+                deleteSpeed: 50,
+              }}
+            />
+          </h3>
+          <p>¡Bienvenido/a!</p>
+          <p>
+            Me llamo Lorena y soy de Valencia, España. Me encanta transformar
+            ideas en productos reales con experiencias digitales fluidas,
+            prácticas y atractivas. Siempre estoy explorando nuevas herramientas
+            y buscando formas de mejorar mis proyectos.
+          </p>
 
-          <img
-            className="perfil__icon"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg"
-          />
+          <p>
+            ¿Tienes una idea en mente? ¡Conversemos y trabajemos juntos para
+            hacerla posible! 🚀
+          </p>
+        </div>
 
-          <img
-            className="perfil__icon"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sass/sass-original.svg"
-          />
-
-          <img
-            className="perfil__icon"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
-          />
-
-          <img
-            className="perfil__icon"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg"
-          />
-
-          <img
-            className="perfil__icon"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original-wordmark.svg"
-          />
-
-          <img
-            className="perfil__icon"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg"
-          />
-
-          <img
-            className="perfil__icon"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg"
-          />
-
-          <img
-            className="perfil__icon"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg"
-          />
-
-          <img
-            className="perfil__icon"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"
-          />
-
-          <img
-            className="perfil__icon"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg"
-          />
-
-          <img
-            className="perfil__icon"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg"
-          />
-
-          <img
-            className="perfil__icon"
-            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg"
-          />
-        </p> */}
+        <div></div>
       </div>
-      <div></div>
-    </div>
+    </>
   );
 }
 
