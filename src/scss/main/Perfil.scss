@@ -1,6 +1,12 @@
 .perfil {
   &__container {
-    height: 80vh;
+    height: 110vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  &__1 {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -14,6 +20,53 @@
 
     & p {
       font-style: italic;
+    }
+  }
+
+  &__dev {
+    max-width: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    font-family: "Micro 5", serif;
+    font-size: 24px;
+    color: rgb(221, 221, 221);
+
+    & p {
+      display: inline-block;
+      transition: transform 0.3s ease;
+      &:hover {
+        color: #cbacf9;
+        transform: scale(1.2);
+      }
+    }
+  }
+
+  &__2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    position: relative;
+    overflow: hidden;
+  }
+
+  &__cards {
+    width: 180px;
+    height: 180px;
+    border-radius: 40px;
+    position: relative;
+    z-index: 1;
+    margin: 10px;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    & p {
+      font-weight: 600;
+      text-align: center;
+      color: rgb(224, 219, 255);
     }
   }
 }
