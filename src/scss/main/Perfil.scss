@@ -1,9 +1,13 @@
 .perfil {
   &__container {
-    height: 110vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+  }
+
+  &__title {
+    color: #cbacf9;
   }
 
   &__1 {
@@ -15,12 +19,43 @@
     max-width: 30%;
 
     background: linear-gradient(90deg, #161a31, #06091f);
-    padding: 20px 30px;
+    padding: 27px 36px;
     border-radius: 20px;
+
+    & h3 {
+      margin-bottom: 10px;
+    }
 
     & p {
       font-style: italic;
+      line-height: initial;
+      text-align: justify;
+      &:not(:last-child) {
+        margin-bottom: 15px;
+      }
     }
+  }
+  &__cv {
+    cursor: pointer;
+    background-color: transparent;
+    padding: 10px 20px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    color: white;
+
+    &:hover {
+      color: rgb(218, 218, 218);
+    }
+
+    &:active {
+      color: #b38bf0;
+    }
+  }
+
+  &__icon {
+    font-size: 18px;
+    margin-bottom: -4px;
+    margin-left: 8px;
   }
 
   &__dev {
@@ -30,7 +65,7 @@
     justify-content: center;
     gap: 30px;
     font-family: "Micro 5", serif;
-    font-size: 24px;
+    font-size: 26px;
     color: rgb(221, 221, 221);
 
     & p {

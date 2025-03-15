@@ -2,27 +2,34 @@ import "../scss/App.scss";
 import Nav from "./Nav.jsx";
 import Landing from "./Landing.jsx";
 import Perfil from "./Perfil.jsx";
+import Projects from "./Projects.jsx";
 import { loadSlim } from "tsparticles-slim";
 import { useCallback } from "react";
 
 function App() {
+  // nav navegation
+  const scrollToSection = (id) => {
+    document.getElementById(id).scrollIntoView({ behavior: "smooth" });
+  };
+
+  // particles background - softskills
   const particlesInit = useCallback(async (engine) => {
     await loadSlim(engine);
   }, []);
 
-  const cardTexts = [
-    "COMUNICACIÓN",
-    "TRABAJO EN EQUIPO",
-    "RESOLUCIÓN DE PROBLEMAS",
-    "CREATIVIDAD",
-  ];
-
   return (
-    <div>
-      <Nav />
-      <Landing />
-      <Perfil cardTexts={cardTexts} particlesInit={particlesInit} />
-    </div>
+    <>
+      <Nav scrollToSection={scrollToSection} />
+      <div id="landing">
+        <Landing />
+      </div>
+      <div id="perfil">
+        <Perfil />
+      </div>
+      <div id="projects">
+        <Projects particlesInit={particlesInit} />
+      </div>
+    </>
   );
 }
 

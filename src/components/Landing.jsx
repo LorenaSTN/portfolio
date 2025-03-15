@@ -6,7 +6,7 @@ function Landing() {
       <div className="landing__container">
         <div>
           <h1 className="landing__title">
-            Desarrolladora <br />{" "}
+            Desarrolladora <br />
             <span className="landing__span">Full Stack</span>
           </h1>
 

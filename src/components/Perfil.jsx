@@ -1,14 +1,13 @@
 import "../scss/main/Perfil.scss";
 import Typewriter from "typewriter-effect";
-import Particles from "react-tsparticles";
 
-function Perfil({ cardTexts, particlesInit }) {
+function Perfil() {
   return (
     <>
       <div className="perfil__container">
         <div className="perfil__1">
           <div className="perfil__bio">
-            <h3>
+            <h3 className="perfil__title">
               <Typewriter
                 options={{
                   strings: [
@@ -31,10 +30,12 @@ function Perfil({ cardTexts, particlesInit }) {
               buscando formas de mejorar mis proyectos.
             </p>
 
-            <p>
-              ¿Tienes una idea en mente? ¡Conversemos y trabajemos juntos para
-              hacerla posible! 🚀
-            </p>
+            <a
+              href=" https://drive.google.com/uc?export=download&id=1EHLockAA8U9dVGsRwOxajW6dQ5PvCz_i"
+              download
+            >
+              <button className="perfil__cv">Descargar CV</button>
+            </a>
           </div>
 
           <div className="perfil__dev">
@@ -63,6 +64,9 @@ function Perfil({ cardTexts, particlesInit }) {
               <p> NODE JS</p>
             </div>
             <div>
+              <p> NEXT JS</p>
+            </div>
+            <div>
               <p> MYSQL</p>
             </div>
             <div>
@@ -84,36 +88,6 @@ function Perfil({ cardTexts, particlesInit }) {
               <p> ADOBE ILLUSTRATOR</p>
             </div>
           </div>
-        </div>
-        <div className="perfil__2">
-          {cardTexts.map((text, index) => (
-            <div className="perfil__cards" key={index}>
-              <Particles
-                id={`tsparticles-${index}`}
-                init={particlesInit}
-                options={{
-                  fullScreen: { enable: false },
-                  background: { color: "transparent" },
-                  particles: {
-                    number: { value: 8 },
-                    color: { value: "#ffffff" },
-                    shape: { type: "circle" },
-                    opacity: { value: 0.6 },
-                    size: { value: { min: 1, max: 4 } },
-                    move: { enable: true, speed: 0.5 },
-                  },
-                }}
-                style={{
-                  position: "absolute",
-                  top: 0,
-                  left: 0,
-                  width: "100%",
-                  height: "100%",
-                }}
-              />
-              <p>{text}</p>
-            </div>
-          ))}
         </div>
       </div>
     </>

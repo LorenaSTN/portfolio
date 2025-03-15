@@ -2,20 +2,19 @@
   padding: 20px 35px;
   border-radius: 20px;
   background: linear-gradient(90deg, #161a31, #06091f);
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
   position: fixed;
   border: 1px solid rgb(56, 56, 56);
   z-index: 3;
 
   &__container {
     height: 20vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    margin: 0;
   }
 
   &__ul {
-    list-style-type: none;
     color: white;
     display: flex;
     justify-content: center;
