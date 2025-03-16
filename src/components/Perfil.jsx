@@ -64,9 +64,6 @@ function Perfil() {
               <p> NODE JS</p>
             </div>
             <div>
-              <p> NEXT JS</p>
-            </div>
-            <div>
               <p> MYSQL</p>
             </div>
             <div>

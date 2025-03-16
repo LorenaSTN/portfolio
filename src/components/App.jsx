@@ -3,6 +3,7 @@ import Nav from "./Nav.jsx";
 import Landing from "./Landing.jsx";
 import Perfil from "./Perfil.jsx";
 import Projects from "./Projects.jsx";
+import Contact from "./Contact.jsx";
 import { loadSlim } from "tsparticles-slim";
 import { useCallback } from "react";
 
@@ -28,6 +29,10 @@ function App() {
       </div>
       <div id="projects">
         <Projects particlesInit={particlesInit} />
+      </div>
+
+      <div id="contact">
+        <Contact />
       </div>
     </>
   );

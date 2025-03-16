@@ -12,7 +12,7 @@ function Nav({ scrollToSection }) {
           <li className="nav__li" onClick={() => scrollToSection("projects")}>
             Proyectos
           </li>
-          <li className="nav__li" onClick={() => scrollToSection("contacto")}>
+          <li className="nav__li" onClick={() => scrollToSection("contact")}>
             Contacto
           </li>
         </ul>
