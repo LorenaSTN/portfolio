@@ -139,10 +139,10 @@ function Projects() {
           <p>Página web que permite generar chistes clásicos de padre.</p>
 
           <div className="projects__webs">
-            <a href="https://github.com/LorenaSTN/kanye-said">
+            <a href="https://github.com/LorenaSTN/dad-jokes">
               <i className="fa-brands fa-github"></i>
             </a>
-            <a href="https://lorenastn.github.io/kanye-said/">
+            <a href="https://lorenastn.github.io/dad-jokes/">
               <i className="fa-solid fa-globe"></i>
             </a>
           </div>
