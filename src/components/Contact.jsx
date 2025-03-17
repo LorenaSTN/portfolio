@@ -13,13 +13,13 @@ function Contact() {
             </p>
 
             <div className="contact__webs">
-              <a href="">
+              <a href="https://www.linkedin.com/in/lorena-sancheztoril/">
                 <i className="fa-brands fa-linkedin-in"></i>
               </a>
-              <a href="">
+              <a href="https://github.com/LorenaSTN">
                 <i className="fa-brands fa-github"></i>
               </a>
-              <a href="">
+              <a href="https://www.instagram.com/lorenstn/">
                 <i className="fa-brands fa-instagram"></i>
               </a>
             </div>
