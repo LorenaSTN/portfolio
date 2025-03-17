@@ -24,10 +24,10 @@ function Perfil() {
             </h3>
             <p>¡Bienvenido/a!</p>
             <p>
-              Me llamo Lorena y soy de Valencia, España. Me encanta transformar
-              ideas en productos reales con interfaces fluidas, prácticas y
-              atractivas. Siempre estoy explorando nuevas herramientas y
-              buscando formas de mejorar mis proyectos.
+              Me llamo Lorena y soy de España. Me encanta transformar ideas en
+              productos reales con interfaces fluidas, prácticas y atractivas.
+              Siempre estoy explorando nuevas herramientas y buscando formas de
+              mejorar mis proyectos.
             </p>
 
             <a
