@@ -149,7 +149,7 @@ function Projects() {
 
           <div className="projects__tech">
             <span>HTML</span>
-            <span>SASS</span>
+            <span>CSS</span>
             <span>TYPESCRIPT</span>
           </div>
         </div>
