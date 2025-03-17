@@ -14,8 +14,17 @@
     display: flex;
     height: 100%;
     flex-wrap: wrap;
+    gap: 80px;
     justify-content: space-evenly;
     align-items: center;
+
+    @media (max-width: 920px) {
+      gap: 50px;
+    }
+
+    @media (max-width: 590px) {
+      gap: 30px;
+    }
   }
 
   &__section {
@@ -77,10 +86,5 @@
       font-size: 22px;
       color: rgb(173, 173, 173);
     }
-  }
-
-  &__list2 {
-    display: flex;
-    justify-content: space-evenly;
   }
 }

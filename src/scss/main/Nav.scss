@@ -9,6 +9,10 @@
   border: 1px solid rgb(56, 56, 56);
   z-index: 3;
 
+  @media (max-width: 920px) {
+    width: 100vw;
+  }
+
   &__container {
     height: 20vh;
     margin: 0;
@@ -21,6 +25,10 @@
     align-items: center;
     gap: 60px;
     cursor: pointer;
+
+    @media (max-width: 590px) {
+      gap: 20px;
+    }
   }
 
   &__li {
@@ -28,6 +36,10 @@
     &:hover {
       color: #b9b9b9;
       font-weight: 350;
+    }
+
+    @media (max-width: 590px) {
+      font-size: 12px;
     }
   }
 }

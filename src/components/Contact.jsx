@@ -6,7 +6,7 @@ function Contact() {
       <div className="contact__container">
         <div className="contact__formtable">
           <div className="contact__message">
-            <h3>Contacta conmigo</h3>
+            <h3>Contacta</h3>
             <p>
               ¿Un proyecto en mente? <br /> Si tienes una propuesta o
               simplemente quieres saludar, ¡déjame un mensaje!
@@ -15,6 +15,9 @@ function Contact() {
             <div className="contact__webs">
               <a href="">
                 <i className="fa-brands fa-linkedin-in"></i>
+              </a>
+              <a href="">
+                <i className="fa-brands fa-github"></i>
               </a>
               <a href="">
                 <i className="fa-brands fa-instagram"></i>

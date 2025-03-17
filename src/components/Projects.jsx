@@ -61,6 +61,30 @@ function Projects() {
         </div>
 
         <div className="projects__section">
+          <img src={Project4} alt="" />
+          <h3>Buscador de series anime</h3>
+          <p>
+            Plataforma web diseñada para los amantes del anime, permitiéndoles
+            buscar series y agregarlas a su lista de favoritos.
+          </p>
+
+          <div className="projects__webs">
+            <a href="https://github.com/LorenaSTN/buscador-series-anime">
+              <i className="fa-brands fa-github"></i>
+            </a>
+            <a href="https://lorenastn.github.io/buscador-series-anime/">
+              <i className="fa-solid fa-globe"></i>
+            </a>
+          </div>
+
+          <div className="projects__tech">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JAVASCRIPT</span>
+          </div>
+        </div>
+
+        <div className="projects__section">
           <img src={Project2} alt="" />
           <h3>Alpaca Generator</h3>
           <p>
@@ -83,9 +107,7 @@ function Projects() {
             <span>REACT</span>
           </div>
         </div>
-      </div>
 
-      <div className="projects__list2">
         <div className="projects__section">
           <img src={Project5} alt="" />
           <h3>Kanye Said</h3>
@@ -107,30 +129,6 @@ function Projects() {
           <div className="projects__tech">
             <span>HTML</span>
             <span>SASS</span>
-            <span>JAVASCRIPT</span>
-          </div>
-        </div>
-
-        <div className="projects__section">
-          <img src={Project4} alt="" />
-          <h3>Buscador de series anime</h3>
-          <p>
-            Plataforma web diseñada para los amantes del anime, permitiéndoles
-            buscar series y agregarlas a su lista de favoritos.
-          </p>
-
-          <div className="projects__webs">
-            <a href="https://github.com/LorenaSTN/buscador-series-anime">
-              <i className="fa-brands fa-github"></i>
-            </a>
-            <a href="https://lorenastn.github.io/buscador-series-anime/">
-              <i className="fa-solid fa-globe"></i>
-            </a>
-          </div>
-
-          <div className="projects__tech">
-            <span>HTML</span>
-            <span>CSS</span>
             <span>JAVASCRIPT</span>
           </div>
         </div>

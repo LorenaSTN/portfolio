@@ -13,6 +13,14 @@
     padding: 40px 40px;
     background: linear-gradient(90deg, #161a31, #06091f);
     border-radius: 20px;
+    margin-bottom: 50px;
+
+    @media (max-width: 720px) {
+      flex-direction: column;
+      gap: 40px;
+      width: 80%;
+      margin-bottom: 90px;
+    }
   }
 
   &__message {
@@ -20,15 +28,26 @@
     margin-right: 50px;
     text-align: justify;
 
+    @media (max-width: 590px) {
+      margin-right: 0px;
+      width: fit-content;
+    }
+
     & h3 {
       font-size: 20px;
       margin-bottom: 40px;
       color: #cbacf9;
+      @media (max-width: 590px) {
+        font-size: 18px;
+      }
     }
 
     & p {
       font-style: italic;
       margin-bottom: 40px;
+      @media (max-width: 590px) {
+        font-size: 14px;
+      }
     }
 
     & a {
@@ -49,12 +68,20 @@
     & input {
       width: 200px;
       margin-bottom: 10px;
+
+      @media (max-width: 590px) {
+        width: 75%;
+      }
     }
 
     & textarea {
       width: 250px;
       margin-bottom: 10px;
       height: 120px;
+
+      @media (max-width: 590px) {
+        width: 90%;
+      }
     }
 
     & button {
@@ -63,10 +90,10 @@
       border-radius: 10px;
       background-color: transparent;
       border: 2px solid grey;
-      color: white;
+      color: rgb(173, 173, 173);
       cursor: pointer;
 
-      :hover {
+      &:hover {
         color: #cbacf9;
       }
     }
