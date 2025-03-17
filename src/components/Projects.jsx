@@ -4,8 +4,8 @@ import Project1 from "../images/groceryapp.jpeg";
 import Project2 from "../images/alpacaweb.jpeg";
 import Project3 from "../images/appawesome.jpeg";
 import Project4 from "../images/seriesapp.jpeg";
-
 import Project5 from "../images/kanyesaid.png";
+import Project6 from "../images/dadjokes.png";
 
 function Projects() {
   return (
@@ -37,7 +37,7 @@ function Projects() {
         </div>
 
         <div className="projects__section">
-          <img src={Project3} alt="" />
+          <img src={Project3} alt="Awesome Profile Cards" />
           <h3>Awesome Profile Cards</h3>
           <p>
             Aplicación web que permite a los usuarios crear y compartir tarjetas
@@ -61,7 +61,7 @@ function Projects() {
         </div>
 
         <div className="projects__section">
-          <img src={Project4} alt="" />
+          <img src={Project4} alt="Buscador series de anime" />
           <h3>Buscador de series anime</h3>
           <p>
             Plataforma web diseñada para los amantes del anime, permitiéndoles
@@ -85,7 +85,7 @@ function Projects() {
         </div>
 
         <div className="projects__section">
-          <img src={Project2} alt="" />
+          <img src={Project2} alt="Alpaca Generator" />
           <h3>Alpaca Generator</h3>
           <p>
             Aplicación web que permite a los usuarios diseñar sus propias
@@ -109,7 +109,7 @@ function Projects() {
         </div>
 
         <div className="projects__section">
-          <img src={Project5} alt="" />
+          <img src={Project5} alt="Kanye Said" />
           <h3>Kanye Said</h3>
           <p>
             Plataforma creativa que permite a los usuarios diseñar tarjetas
@@ -130,6 +130,27 @@ function Projects() {
             <span>HTML</span>
             <span>SASS</span>
             <span>JAVASCRIPT</span>
+          </div>
+        </div>
+
+        <div className="projects__section">
+          <img src={Project6} alt="Dad jokes" />
+          <h3>Dad Jokes</h3>
+          <p>Página web que permite generar chistes clásicos de padre.</p>
+
+          <div className="projects__webs">
+            <a href="https://github.com/LorenaSTN/kanye-said">
+              <i className="fa-brands fa-github"></i>
+            </a>
+            <a href="https://lorenastn.github.io/kanye-said/">
+              <i className="fa-solid fa-globe"></i>
+            </a>
+          </div>
+
+          <div className="projects__tech">
+            <span>HTML</span>
+            <span>SASS</span>
+            <span>TYPESCRIPT</span>
           </div>
         </div>
       </div>
