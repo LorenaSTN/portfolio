@@ -31,8 +31,8 @@ function Perfil() {
             </p>
 
             <a
-              href=" https://drive.google.com/uc?export=download&id=1EHLockAA8U9dVGsRwOxajW6dQ5PvCz_i"
-              download
+              href="https://drive.google.com/uc?export=download&id=1DOglsQvnwMSVYofTUrlNQHY1c6LX5DDv"
+              download="Mi_CV_Lorena.pdf"
             >
               <button className="perfil__cv">Descargar CV</button>
             </a>

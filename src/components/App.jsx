@@ -13,6 +13,11 @@ function App() {
     document.getElementById(id).scrollIntoView({ behavior: "smooth" });
   };
 
+  // landing to projects
+  const scrollToProjects = () => {
+    document.getElementById("projects").scrollIntoView({ behavior: "smooth" });
+  };
+
   // particles background - softskills
   const particlesInit = useCallback(async (engine) => {
     await loadSlim(engine);
@@ -22,7 +27,7 @@ function App() {
     <>
       <Nav scrollToSection={scrollToSection} />
       <div id="landing">
-        <Landing />
+        <Landing scrollToProjects={scrollToProjects} />
       </div>
       <div id="perfil">
         <Perfil />
