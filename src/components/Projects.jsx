@@ -33,6 +33,7 @@ function Projects() {
             <span>HTML</span>
             <span>SASS</span>
             <span>REACT</span>
+            <span>ADOBE ILLUSTRATOR</span>
           </div>
         </div>
 
@@ -57,6 +58,8 @@ function Projects() {
             <span>HTML</span>
             <span>SASS</span>
             <span>JAVASCRIPT</span>
+            <span>ADOBE PHOTOSHOP</span>
+            <span>ADOBE ILLUSTRATOR</span>
           </div>
         </div>
 
@@ -130,6 +133,7 @@ function Projects() {
             <span>HTML</span>
             <span>SASS</span>
             <span>JAVASCRIPT</span>
+            <span>ADOBE ILLUSTRATOR</span>
           </div>
         </div>
 
